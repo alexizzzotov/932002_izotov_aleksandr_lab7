@@ -1,0 +1,28 @@
+.Rectangle 
+{
+    position: absolute;
+    height: 60px;
+    width: 25px;
+    background: rgba(255, 0, 0, 0.8);
+    border: 2px solid black;
+}
+
+.Triangle 
+{
+    position: absolute;
+    height: 0;
+    width: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 100px solid rgba(0, 0, 255, 0.8);
+}
+
+.Circle 
+{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: rgba(30, 95, 0, 0.8);
+    border-radius: 80%;
+    border: 2px solid black;
+}
